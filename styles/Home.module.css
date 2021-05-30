@@ -18,7 +18,16 @@
   position: absolute;
   top: 0;
   margin: 8rem;
-  font-size: 1.5rem;
+  font-size: 1.5rem; 
+  z-index: 999999;
+}
+
+.links{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0 0 0;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 400px) {

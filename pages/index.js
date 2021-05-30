@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import styles from "../styles/Home.module.css"
-// import github from '/github.svg'
-// import twitter from '/twitter.svg'
-// import link from '/link.svg'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from "../styles/Home.module.css";
+
+import Github from './assets/Github';
+import Twitter from './assets/Twitter';
+import ProjLink from './assets/Link';
 
 export default function Home() {
   return (
@@ -15,15 +17,15 @@ export default function Home() {
         <div>
           <span>
             Hi, I am <h2>Daksh Kulshrestha</h2> and I am a full stack developer.
-            I love build & ship tools and products. I am currently a student prepping for JEE.
+            I love build & ship tools and products and my passion for tech has lead me here. I am currently a student prepping for JEE.
             <br />
             <br />
-            I love to listen to music and my hobbies besides tech is Maths and Steller Physics.
+            Besides tech, Maths and Physics make my world go round.
           </span>
-          <div className="links">
-            <img src='./github.svg' alt="github" />
-            <img src='./twitter.svg' alt="twitter" />
-            <img src='./link.svg' alt="link" />
+          <div className={styles.links}>
+            <Link href="https://github.com/devdaksh"><a target="__blank"><Github /></a></Link>
+            <Link href="https://twitter.com/dawksh"><a target="__blank"><Twitter /></a></Link>
+            <Link href="/projects"><a><ProjLink /></a></Link>
           </div>
         </div>
       </div>
