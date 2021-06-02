@@ -30,6 +30,10 @@
   z-index: 999;
 }
 
+.name {
+  text-shadow: 1px 1px blue, 2px 2px red, 3px 3px orange;
+}
+
 @media only screen and (max-width: 400px) {
   .videoContainer {
     visibility: hidden;
@@ -37,5 +41,8 @@
   .main {
     margin: 3rem 2rem 0rem 2rem;
     font-size: 1rem;
+  }
+  .links {
+    width: 100%;
   }
 }

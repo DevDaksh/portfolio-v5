@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.head {
+    text-shadow: 2px 2px blue, 4px 4px red ;
+}
+
+.container {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 2rem;
+    margin-top: 1rem;
+    max-width: 70vw;
+}
+.title {
+    margin: 0 0 1rem 0;
+    text-shadow: 1px 1px #598392;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .container {
+        padding: 1.5rem;
+        min-width: 90vw;
+    }
+    .title {
+        margin: 0 0 0.7rem 0;
+    }
+  }

@@ -16,7 +16,7 @@ export default function Home() {
       <div className={styles.main}>
         <div>
           <span>
-            Hi, I am <h2>Daksh Kulshrestha</h2> and I am a full stack developer.
+            Hi, I am <h2 className={styles.name}>Daksh Kulshrestha</h2> and I am a full stack developer.
             I love build & ship tools and products and my passion for tech has lead me here. I am currently a student prepping for JEE.
             <br />
             <br />
