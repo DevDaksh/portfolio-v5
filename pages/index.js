@@ -12,6 +12,7 @@ export default function Home() {
       <Head>
         <title>Daksh Kulshrestha</title>
         <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+        <meta name="description" content="Web Portfolio of Daksh Kulshrestha made with <3 and NextJS" />
       </Head>
       <div className={styles.main}>
         <div>

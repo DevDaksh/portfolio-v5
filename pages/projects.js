@@ -20,7 +20,6 @@ function projects() {
         <div className={styles.root}>
             <Head>
                 <title>Projects // Daksh Kulshrestha </title>
-                <meta name="description" content="Web Portfolio of Daksh Kulshrestha made with <3 and NextJS" />
             </Head>
             <h1 className={styles.head}>Here is a list of stuff I've built</h1>
             {
