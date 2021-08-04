@@ -18,13 +18,13 @@ const projectsList = [
   {
     title: "Dashnode",
     description:
-      "Dashnode is a app to help you publish blog posts on the IPFS Network or the Distributed web!",
+      "Dashnode is a app to help you publish blog posts on the IPFS Network or the Distributed web! Just signup and write in markdown your first blog on distributed web.",
     link: "https://dashnode.vercel.app",
   },
   {
     title: "Go ETH me",
     description:
-      "Go ETH Me is a go fund me alternative for web3 built to make fundraisers for Ethereum",
+      "Go ETH Me is a go fund me alternative for web3 built to make fundraisers for Ethereum. It is totally end to end with no middleman in between.",
     link: "https://go-eth-me.vercel.app",
   },
 ];
