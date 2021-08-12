@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    min-height: min-content;
 }
 
 .head {
