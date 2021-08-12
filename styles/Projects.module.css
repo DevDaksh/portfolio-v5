@@ -16,6 +16,7 @@
     padding: 2rem;
     margin-top: 1rem;
     max-width: 70vw;
+    min-height: min-content;
 }
 .title {
     margin: 0 0 1rem 0;
